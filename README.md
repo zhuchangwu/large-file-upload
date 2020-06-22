@@ -12,15 +12,11 @@ vue-simple-uploader底层封装了uploader.js :    https://github.com/simple-upl
 
 ### 1、如何唯一标示一个文件？
 
-文件的信息后端会存储在mysql数据库表中。
+在上传之前，前端通过  spark-md5.js 计算文件的md5值以此去唯一的标示一个文件。
 
-在上传之前，前端通过  spark-md.js 计算文件的md5值以此去唯一的标示一个文件。
+spark-md5.js 地址：https://github.com/satazor/js-spark-md5
 
-sprk-md.js 地址：
-
-README.md中有sprk-md.js的使用demo，可以去看看。
-
-
+README.md中有spark-md5.js的使用demo，可以去看看。
 
 ### 2、断点续传是如何实现的？
 
