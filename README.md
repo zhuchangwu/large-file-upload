@@ -1,21 +1,14 @@
-[TOC]
-
 ## 大文件上传
 
 ### 0、项目源码地址
 
-前端地址（vue）：
+前端基于 vue-simple-uploader （感谢这个大佬）实现： https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md
 
-后端地址（beego）：
-
-前端基于 vue-simple-uploader （感谢这个大佬）实现：
-
-vue-simple-uploader底层封装了Uploader.js : 
+vue-simple-uploader底层封装了uploader.js :    https://github.com/simple-uploader/Uploader/blob/develop/README_zh-CN.md
 
 上面两个项目是在探究大文件上传过程中编写的Demo
 
 >  他只是个demo，所以不再去死抠里面的细节和边界值了。不过起码的参考意义还是有的。
-
 
 ### 1、如何唯一标示一个文件？
 
